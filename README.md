@@ -5,6 +5,9 @@ This is my last year project where I used a Raspberry Pi microcomputer with an a
 
 In this project, I wanted to monitor air quality, alarm the user if the dust intensity is above the norms, collect the data in a text file, and create a chart from the detected data (using Matplotlib.pyplot). The chart-creating data part is not polished and finished yet!
 
-In Addition i wrote a simple shell scrip which boot the Python script in .sh file named 'run_pms7003.sh' and added permissions in console by typing:    chmod +x              run_pms7003ver01.sh
+In Addition i wrote a simple shell scrip which boot the Python script in .sh file named 'run_pms7003.sh' and added permissions in console by typing:
+
+    chmod +x run_pms7003ver01.sh
+
 
 Every function and crucial part is commented in code.
