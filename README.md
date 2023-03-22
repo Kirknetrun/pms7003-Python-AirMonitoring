@@ -11,7 +11,7 @@ When you are using the Pms7003Sensor() object form pms7003 sensor library it is 
 
     sensor = Pms7003Sensor('/dev/ttyUSB0')
 
-There is possibility to connect via other ports so i thought it would be right to mention
+There is possibility to connect via other ports so i thought it would be good to mention
 
 In Addition i wrote a simple shell scrip which boot the Python script in .sh file named 'run_pms7003.sh': 
 
