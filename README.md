@@ -5,6 +5,14 @@ This is my last year project where I used a Raspberry Pi microcomputer with an a
 
 In this project, I wanted to monitor air quality, alarm the user if the dust intensity is above the norms, collect the data in a text file, and create a chart from the detected data (using Matplotlib.pyplot). The chart-creating data part is not polished and finished yet!
 
+Every function and crucial part is commented in code.
+
+When you are using the Pms7003Sensor() object form pms7003 sensor library it is crucial to give corret port name to read the data later in my example it is '/dev/ttyUSB0' because im using the USB port on microcomputer:
+
+    sensor = Pms7003Sensor('/dev/ttyUSB0')
+
+There is possibility to connect via other ports so i thought it would be right to mention
+
 In Addition i wrote a simple shell scrip which boot the Python script in .sh file named 'run_pms7003.sh': 
 
     #!/bin/bash
@@ -15,4 +23,3 @@ and added permissions in console by typing:
     chmod +x run_pms7003ver01.sh
 
 
-Every function and crucial part is commented in code.
